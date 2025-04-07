@@ -90,8 +90,8 @@ const (
 	Space       = " " //单个空格
 	NULL        = ""  //空字符串
 	Nulls       = "NULL"
-	CRLF        = "\r\n"          //回车+换行
-	WaitingTime = 3 * time.Second //请求底层TCP连接维持多少时间
+	CRLF        = "\r\n"           //回车+换行
+	WaitingTime = 30 * time.Second //请求底层TCP连接维持多少时间
 )
 
 var NULLPtr = uintptr(0) //空字符串指针
